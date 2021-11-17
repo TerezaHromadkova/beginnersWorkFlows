@@ -35,7 +35,7 @@ jobs:
       - name: Code checkout
         uses: actions/checkout@v2
       - name: K6 RUN
-      - uses: grafana/k6-action@55845c6c2e400af4356c84e5b514aeabb1bfdbd4
+        uses: grafana/k6-action@55845c6c2e400af4356c84e5b514aeabb1bfdbd4
         with:
           filename: ${{ github.workspace }}/test/k6/loadtest.js
       
